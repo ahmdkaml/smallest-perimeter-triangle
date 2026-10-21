@@ -7,7 +7,6 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        int blockNumber = 1;
         try (BufferedReader reader = new BufferedReader(new InputStreamReader(System.in)))
         {
             String line;
@@ -44,7 +43,7 @@ public class Main {
 
                 // Pass array to static solver class
                 double minPerimeter = MinimumPerimeterSolver.findMinimumPerimeter(points);
-                System.out.println("Block " + blockNumber++ + " Minimum Perimeter: " + minPerimeter);           }
+                System.out.println(minPerimeter);           }
         }
         catch (IOException e)
         {

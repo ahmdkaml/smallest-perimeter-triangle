@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Graphical_algorithm:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Graphical_algorithm_jar</output-path>
+    <root id="archive" name="Graphical_algorithm.jar">
+      <element id="module-output" name="Graphical_algorithm" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src" />
+    </root>
+  </artifact>
+</component>

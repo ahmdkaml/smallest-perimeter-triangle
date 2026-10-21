@@ -43,7 +43,8 @@ public class Main {
 
                 // Pass array to static solver class
                 double minPerimeter = MinimumPerimeterSolver.findMinimumPerimeter(points);
-                System.out.println(minPerimeter);           }
+                System.out.printf("%.3f%n", minPerimeter);
+            }
         }
         catch (IOException e)
         {
